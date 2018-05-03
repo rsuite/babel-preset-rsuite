@@ -1,0 +1,19 @@
+{
+  "name": "babel-preset-rsuite",
+  "version": "0.0.1",
+  "description": "Modularly import rsuite components for babel.",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "Simon Guo <simonguo.2009@@gmail.com>",
+  "keywords": [
+    "babel-preset",
+    "react",
+    "rsuite"
+  ],
+  "dependencies": {
+    "babel-plugin-import": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
