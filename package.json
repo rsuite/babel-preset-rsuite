@@ -14,6 +14,11 @@
     "react",
     "rsuite"
   ],
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "babel-plugin-import": "^1.7.0"
   },
