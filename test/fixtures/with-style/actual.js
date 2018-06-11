@@ -1,4 +1,7 @@
 import React from 'react';
-import { Button } from 'rsuite';
+import { Button, SelectPicker } from 'rsuite';
 
-export default Button;
+export default {
+  Button,
+  SelectPicker
+};
