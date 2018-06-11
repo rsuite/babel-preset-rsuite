@@ -54,6 +54,6 @@ import { Button } from 'rsuite';
 roughly to
 
 ```js
+require('rsuite/styles/button.less');
 var _Button = require('rsuite/lib/Button');
-require('rsuite/styles/Button');
 ```
