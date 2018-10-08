@@ -1,12 +1,12 @@
 {
   "name": "babel-preset-rsuite",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Modularly import rsuite components for babel.",
   "main": "lib/index.js",
   "license": "MIT",
   "author": "Simon Guo <simonguo.2009@@gmail.com>",
   "scripts": {
-    "test": "mocha --require babel-register \"test/*.js\"",
+    "test": "mocha --require @babel/register \"test/*.js\"",
     "test:watch": "npm run test -- --watch --watch-extensions js"
   },
   "keywords": [
@@ -20,18 +20,19 @@
     "README.md"
   ],
   "dependencies": {
-    "babel-plugin-import": "^1.7.0"
+    "@babel/core": "^7.0.0",
+    "babel-plugin-import": "^1.9.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.26.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
     "eslint": "^4.19.1",
     "lodash": "^4.17.4",
     "mocha": "^4.0.1",
-    "rsuite": "3.0.4"
+    "rsuite": "^3.3.0"
   }
 }

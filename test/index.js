@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { transformFileSync } from 'babel-core';
+import { transformFileSync } from '@babel/core';
 import fs from 'fs';
 import _ from 'lodash';
 import path from 'path';
@@ -23,9 +23,6 @@ const fixtureAssert = (fixtureDir, options = []) =>
   });
 
 describe('fixtures', () => {
-  afterEach(() => {
-    global.__clearBabelAntdPlugin();
-  });
-  fixtureAssert('default', []);
+  fixtureAssert('default', {});
   fixtureAssert('with-style', { style: true });
 });
