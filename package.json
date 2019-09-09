@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-rsuite",
-  "version": "4.0.0-alpha.3",
+  "version": "4.0.0",
   "description": "Modularly import rsuite components for babel.",
   "main": "lib/index.js",
   "license": "MIT",
