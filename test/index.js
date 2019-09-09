@@ -25,4 +25,6 @@ const fixtureAssert = (fixtureDir, options = []) =>
 describe('fixtures', () => {
   fixtureAssert('default', {});
   fixtureAssert('with-style', { style: true });
+  fixtureAssert('with-style-theme', { style: true, theme: 'dark' });
+  fixtureAssert('ignore-style', { style: true });
 });
